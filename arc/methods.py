@@ -7,6 +7,9 @@ from tqdm import tqdm
 
 from arc.classification import ProbabilityAccumulator as ProbAccum
 
+###这个是你的method主要部分
+
+
 class CVPlus:
     def __init__(self, X, Y, black_box, alpha, n_folds=10, random_state=2020, verbose=False):
         X = np.array(X)

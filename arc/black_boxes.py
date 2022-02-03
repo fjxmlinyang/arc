@@ -7,6 +7,8 @@ from sklearn.neural_network import MLPClassifier
 import copy
 
 
+#这个是改装过的SVC，NN之类的问题
+
 class Oracle:
     def __init__(self, model):
         self.model = model
